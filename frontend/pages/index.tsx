@@ -1,11 +1,11 @@
-import { Container, makeStyles, Theme } from '@material-ui/core'
+import { Container, makeStyles } from '@material-ui/core'
 import Head from 'next/head'
 import Form from '../components/Form'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import UserList from 'components/UserList'
+import UserList from '../components/UserList'
 
 const useStyles = makeStyles({
   root: {
